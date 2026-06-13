@@ -2,6 +2,12 @@
 
 This project reconstructs a real-world chair as an interactive 3D scene using Gaussian Splatting. The entire pipeline runs from a phone video to a fully navigable 3D model.
 
+## Result
+
+![demo](https://github.com/FJvEngelen/gaussian-splatting-chair/raw/main/stoel_kort.mp4)
+
+428,759 splats reconstructed from 61 frames.
+
 ## Pipeline
 
 1. Filmed the chair with a phone from multiple angles
@@ -9,12 +15,6 @@ This project reconstructs a real-world chair as an interactive 3D scene using Ga
 3. Ran COLMAP for camera pose estimation and sparse reconstruction
 4. Trained a Gaussian Splatting model on Google Colab (T4 GPU)
 5. Visualized the result in SuperSplat
-
-## Result
-
-![demo](https://github.com/FJvEngelen/gaussian-splatting-chair/raw/main/point_cloud.mp4)
-
-428,759 splats reconstructed from 61 frames.
 
 ## Why this matters
 
